@@ -1,0 +1,13 @@
+name: SSH Keyscan
+description: Use ssh-keyscan to prime a known_hosts file
+author: https://github.com/sj26
+requirements:
+  - ssh-keyscan
+  - bash
+configuration:
+  properties:
+    host:
+      type: string
+      required: true
+    known_hosts_path:
+      type: string
