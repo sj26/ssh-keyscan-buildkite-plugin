@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-echo "--- Scanning ssh key"
+echo "~~~ Scanning ssh key"
 
 HOST="${BUILDKITE_PLUGIN_SSH_KEYSCAN_HOST}"
 KNOWN_HOSTS_PATH="${BUILDKITE_PLUGIN_SSH_KEYSCAN_KNOWN_HOSTS_PATH:-"${HOME}/.ssh/known_hosts"}"
